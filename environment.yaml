@@ -1,0 +1,10 @@
+name: rpa_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - ipykernel # to show the kernel on jupyter
+  - pip
+  - pip:
+      - botcity-framework-core
